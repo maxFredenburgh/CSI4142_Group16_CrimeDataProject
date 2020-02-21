@@ -127,7 +127,7 @@ if __name__ == '__main__':
 	# denCrimeDim.to_csv('/Users/nicgardin/Documents/2020_Classes_Master/DataScience/crimeKeys/denSet.csv', index=False)
 
 	# create and write vanCrimeKeys.csv
-	vanCrimeKeys = getCrimeKeys(vanCrimeDim)
+	vanCrimeKeys = getCrimeKeysVan(vanCrimeDim)
 	vanCrimeKeys.to_csv('/Users/nicgardin/Documents/2020_Classes_Master/DataScience/crimeKeys/vanCrimeKeys.csv', index=False)
 
 	# create and write denCrimeKeys.csv (SLOW)
